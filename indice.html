@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Aplicación Vehículos</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <link rel="stylesheet" href="style.css">
+  <body>
+    <div id="container2" class="container-fluid">
+
+    <div class="row">
+        <div class="col">
+             <h1 id="viacar">Viacar.com  <span>  </span></h1>
+
+         </div>
+     </div>
+   </div>
+    <div id="container1" class="container-fluid">
+
+      <div class="row">
+        <div id="col1" class="col-sm-4">
+
+          <h1 id="h1">Dar de alta un Turismo</h1>
+          <div id="row1" class="row">
+            <div id="col-1" class="col">
+
+
+              <p><b>Marca</b></p>
+                <select id="marca" class="marca"  name="marca">
+                  <option value="Elija marca">Elija marca</option>
+                  <option value="Seat">Seat</option>
+                  <option value="Mercedes">Mercedes</option>
+                  <option value="Renault">Renault</option>
+                  <option value="Ford">Ford</option>
+                  <option value="Volvo">Volvo</option>
+                  <option value="BMW">BMW</option>
+                  <option value="Kia">Kia</option>
+                </select>
+                <br>
+
+                <p><b>Modelo</b></p>
+                <select id="modelo" class="modelo"  name="modelo">
+                  <option value="Elija modelo">Elija modelo</option>
+                  <option value="ibiza">Ibiza</option>
+                  <option value="clase-a">Clase a</option>
+                  <option value="Clio">Clio</option>
+                  <option value="Fiesta">Fiesta</option>
+                  <option value="XC90">XC90</option>
+                  <option value="x6">x6</option>
+                  <option value="carnival">Carnival</option>
+                </select>
+                <br>
+
+                <p><b>Tipo de combustible</b></p>
+                  <select id="tipo_combustible" class="combustible" name="">
+                    <option value="gasolina">Gasolina</option>
+                    <option value="diesel">Diesel</option>
+                    <option value="electrico">Eléctrico</option>
+                  </select>
+                  <br>
+                  <p><b>Kilometros</b></p>
+                    <select id="kms" class="Kilometros" name="">
+                    <option value="300kms - 600 kms">300kms - 600 kms</option>
+                    <option value="600 kms - 1000 kms">600 kms - 1000 kms</option>
+                    <option value="1000 kms - 6000 kms">1000 kms - 6000 kms</option>
+                    <option value="6000 kms - 10000 kms">6000 kms - 10000 kms</option>
+                    </select>
+                </div>
+
+                <div class="col">
+
+              <p><b>Estado</b></p>
+              <select id="estado" class="estado" name="">
+              <option value="Nuevo">Nuevo<br>
+              <option value="semi-nuevo">Semi-nuevo<br>
+              <option value="Viejo">Viejo<br>
+              <option value="Muy viejo">Muy viejo<br>
+              </select>
+              <br>
+              <p><b>Nº de plazas</b></p>
+              <input id="numero-plazas" type="number" min="2" max="10" name="" value="" placeholder="Introducir">
+              <br>
+              <p><b>Nº de matricula</b></p>
+              <input id="mat1" type="text" name="" value="" placeholder="Introducir">
+              </div>
+            </div>
+            <div id="" class="row">
+              <button id="boton1" type="button" name="button"><b>Dar de alta</b> <span id="span1"><b></b></span></button>
+            </div>
+            </div>
+
+            <div id="col2" class="col-sm-4">
+
+              <h1 id="h1">Dar de alta una furgoneta</h1>
+              <div id="row2" class="row">
+                <div class="col">
+              <p><b>Marca</b></p>
+                <select id="marca1" class="marca"  name="marca">
+                  <option value="Elija marca">Elija marca</option>
+                  <option value="Seat">Seat</option>
+                  <option value="Mercedes">Mercedes</option>
+                  <option value="Renault">Renault</option>
+                  <option value="Ford">Ford</option>
+                  <option value="Volvo">Volvo</option>
+                  <option value="BMW">BMW</option>
+                  <option value="Kia">Kia</option>
+                  <option value="Volkswagen">Volkswagen</option>
+                </select>
+                <br>
+
+                <p><b>Modelo</b></p>
+                <select id="modelo1" class="modelo"  name="modelo">
+                  <option value="Elija modelo">Elija modelo</option>
+                  <option value="ibiza">Ibiza</option>
+                  <option value="clase-a">Clase a</option>
+                  <option value="Clio">Clio</option>
+                  <option value="Fiesta">Fiesta</option>
+                  <option value="XC90">XC90</option>
+                  <option value="x6">x6</option>
+                  <option value="carnival">Carnival</option>
+                  <option value="Kikoneta">Kikoneta</option>
+                </select>
+                <br>
+
+                <p><b>Tipo de combustible</b></p>
+                  <select id="tipo_combustible1" class="combustible" name="combustible">
+                    <option value="gasolina">Gasolina</option>
+                    <option value="diesel">Diesel</option>
+                    <option value="electrico">Eléctrico</option>
+                    <option value="Pilas">Pilas</option>
+                  </select>
+
+
+                <br>
+              <p><b>Kilometros</b></p>
+                <select id="kms1" class="Kilometros" name="">
+                <option value="300kms - 600 kms">300kms - 600 kms</option>
+                <option value="600 kms - 1000 kms">600 kms - 1000 kms</option>
+                <option value="1000 kms - 6000 kms">1000 kms - 6000 kms</option>
+                <option value="6000 kms - 10000 kms">6000 kms - 10000 kms</option>
+                </select>
+              </div>
+
+              <div class="col">
+
+
+              <p><b>Estado</b></p>
+              <select id="estado1" class="estado" name="">
+              <option value="Nuevo">Nuevo<br>
+              <option value="semi-nuevo">Semi-nuevo<br>
+              <option value="Viejo">Viejo<br>
+              <option value="Muy viejo">Muy viejo
+              </select>
+              <br>
+              <p><b>Capacidad</b></p>
+              <input id="capacidad" type="number" min="40" max="400" name="" value="" placeholder="Introducir">
+              <br>
+              <p><b>Puerta lateral</b></p>
+                <select id="puerta_lateral" class="puerta_lateral" name="">
+                  <option value="si">Si</option>
+                  <option value="no">No</option>
+                </select>
+                <br>
+                <p><b>Nº de matricula</b></p>
+                <input id="mat2" type="text" name="" value="" placeholder="Introducir">
+                </div>
+            </div>
+
+            <div id="" class="row">
+              <button id="boton2" type="button" name="button"><b>Dar de alta</b> <span id="span2"><b></b></span></button>
+            </div>
+          </div>
+            <div id="col3" class="col-sm-4">
+              <h1 id="h1">Dar de alta un Camión</h1>
+              <div id="row3" class="row">
+                <div class="col">
+              <p><b>Marca</b></p>
+                <select id="marca2" class="marca"  name="marca">
+                  <option value="Elija marca">Elija marca</option>
+                  <option value="Seat">Seat</option>
+                  <option value="Mercedes">Mercedes</option>
+                  <option value="Renault">Renault</option>
+                  <option value="Ford">Ford</option>
+                  <option value="Volvo">Volvo</option>
+                  <option value="BMW">BMW</option>
+                  <option value="Kia">Kia</option>
+                  <option value="Volkswagen">Volkswagen</option>
+                </select>
+                <br>
+
+                <p><b>Modelo</b></p>
+                <select id="modelo2" class="modelo"  name="modelo">
+                  <option value="Elija modelo">Elija modelo</option>
+                  <option value="ibiza">Ibiza</option>
+                  <option value="clase-a">Clase a</option>
+                  <option value="Clio">Clio</option>
+                  <option value="Fiesta">Fiesta</option>
+                  <option value="XC90">XC90</option>
+                  <option value="x6">x6</option>
+                  <option value="carnival">Carnival</option>
+                  <option value="Kikoneta">Kikoneta</option>
+                </select>
+                <br>
+
+                <p><b>Tipo de combustible</b></p>
+                  <select id="tipo_combustible2" class="combustible" name="combustible">
+                    <option value="gasolina">Gasolina</option>
+                    <option value="diesel">Diesel</option>
+                    <option value="electrico">Eléctrico</option>
+                    <option value="Pilas">Pilas</option>
+                  </select>
+
+                <br>
+
+              <p><b>Kilometros</b></p>
+                <select id="kms2" class="Kilometros" name="">
+                <option value="300kms - 600 kms">300kms - 600 kms</option>
+                <option value="600 kms - 1000 kms">600 kms - 1000 kms</option>
+                <option value="1000 kms - 6000 kms">1000 kms - 6000 kms</option>
+                <option value="6000 kms - 10000 kms">6000 kms - 10000 kms</option>
+                </select>
+              </div>
+
+              <div class="col">
+
+              <p><b>Estado</b></p>
+              <select id="estado2" class="estado" name="">
+              <option value="Nuevo">Nuevo<br>
+              <option value="semi-nuevo">Semi-nuevo<br>
+              <option value="Viejo">Viejo<br>
+              <option value="Muy viejo">Muy viejo
+              </select>
+              <br>
+              <p><b>Longitud</b></p>
+              <input id="longitud" type="text" name="" value="" placeholder="Introducir">
+              <br>
+              <p><b>Peso máximo admitido</b></p>
+                <input id="peso"type="text" name="" value="" placeholder="Introducir">
+                <br>
+                <p><b>Nº de matricula</b></p>
+                <input id="mat3" type="text" name="" value="" placeholder="Introducir">
+            </div>
+          </div>
+          <div class="row">
+          <button id="boton3" type="button" name="button"><b>Dar de alta</b> <span id="span3"></span></button>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+          <div id="container_metodos" class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <h4>Cambiar kms</h4>
+                  <input id="mat_vieja" type="text" name="" value="" placeholder="matricula...">
+                  <input id="cambiarkms" type="text" name="" value="" placeholder="introducir kms...">
+                  <button id="cambiar-kms" type="button" name="button"><b>Cambiar Kms</b></button>
+              </div>
+              <div class="col-sm-4">
+                <h4>Cambiar estado</h4>
+                  <input id="mat_vieja" type="text" name="" value="" placeholder="matricula...">
+                  <select id="cambiarEstado" class="estado" name="">
+                  <option value="Nuevo">Nuevo<br>
+                  <option value="semi-nuevo">Semi-nuevo<br>
+                  <option value="Viejo">Viejo<br>
+                  <option value="Muy viejo">Muy viejo
+                  </select>
+                  <button id="boton_cambiar_estado" type="button" name="button"><b>Cambiar Estado</b></button>
+              </div>
+              <div class="col-sm-4">
+                <h4>Eliminar Vehiculo</h4>
+                <input id="mat_vieja_del" type="text" name="" value="" placeholder="matricula...">
+                <button id="eliminar" type="button" name="button"><b>Eliminar Vehiculo</b></button>
+              </div>
+            </div>
+
+          </div>
+
+
+          <script type="text/javascript" src="vehiculo.js"></script>
+          <script type="text/javascript" src="turismo.js"></script>
+          <script type="text/javascript" src="furgoneta.js"></script>
+          <script type="text/javascript" src="camion.js"></script>
+          <script type="text/javascript" src="gestion_vehiculo.js"></script>
+  </body>
+</html>
